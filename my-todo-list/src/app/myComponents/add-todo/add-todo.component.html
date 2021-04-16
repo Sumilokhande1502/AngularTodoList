@@ -1,0 +1,16 @@
+
+  <div class="my-3">
+      
+      <h4>Add Your Todos</h4>
+      <form (ngSubmit)="onSubmit()">
+          <div class="mb-3">        
+              <label for="" class="form-label">Titles</label>
+              <input type="text" name="title "[(ngModel)] = "title" class="form-control" id="" aria-describedby="">
+          </div>
+          <div class="mb-3">
+              <label for="" class="form-label">Description</label>
+              <textarea type="text" name="desc" [(ngModel)] = "desc" class="form-control" id="title"></textarea>
+            </div>
+          <button type="submit" class="btn btn-sm btn-primary">Add</button>
+        </form>
+  </div>
