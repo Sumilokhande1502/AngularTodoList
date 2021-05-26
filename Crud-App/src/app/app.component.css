@@ -1,0 +1,10 @@
+/* styling search bar */
+.search input[type=text]{
+    width:300px;
+    height:25px;
+}
+     
+.search{
+    float:right;
+    margin:7px;
+}
